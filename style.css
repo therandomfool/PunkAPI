@@ -12,9 +12,9 @@ body
     height: 100vh;
     display: flex;
     flex-direction: column;
-    -ms-align-items: center:
-    text-align: center;
-    background-color: #febc58;
+    -ms-align-items: inherit;
+    align-items: center;
+    text-transform: center
 }
 
 .random-beer
@@ -58,7 +58,7 @@ body
 .beer-button a:hover
 {
     box-shadow: inset 6px 6px 10px 0 rgba(0,0,0,0.2),
-            inset -6px, -6px 10px 0 rgba(255,255,255,0.5);
+            inset -6px, -6px 10px 0 rgba(255,255,255,0.5),
 }
 
 .beer-button .fab 
